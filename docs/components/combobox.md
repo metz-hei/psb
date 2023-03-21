@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Автокоплит
 
-[Фигма](https://ya.ru) | [Storybook](https://ya.ru) | [Бэклог](https://ya.ru)
+[Фигма](https://www.figma.com/file/jw2MVIw6NwxsSBo3gM5wUd/%E2%9C%85%F0%9F%90%B3%F0%9F%92%99UI-KIT-%E2%80%93-WEB?node-id=9034%3A60478&t=Mm7J2fna6MwSd0Ni-1) | [Storybook](https://psb.mihailshamin.ru/assets/images/storybook-30203c6f3f598721dd183c1dfe1adf72.png) | [Бэклог](https://github.com/metz-hei/psb/labels/autocomplete)
 
 ## Когда использовать
 
