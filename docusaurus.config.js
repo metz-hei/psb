@@ -59,7 +59,7 @@ const config = {
           {collapsible: false, to: '/components', label: 'Компоненты', position: 'left'},
           {collapsible: false, to: '/rdpk', label: 'Редполитика', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/metz-hei/psb/issues',
             label: 'Стать автором',
             position: 'right',
           },
