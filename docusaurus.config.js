@@ -35,7 +35,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/metz-hei/psb',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -54,19 +54,17 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {collapsible: false, to: '/principles', label: 'Принципы', position: 'left'},
-          {collapsible: false, to: '/components', label: 'Компоненты', position: 'left'},
-          {collapsible: false, to: '/rdpk', label: 'Редполитика', position: 'left'},
+          {collapsible: false, to: '/patterns', label: 'Паттерны', position: 'left'},
           {
-            href: 'https://github.com/metz-hei/psb/issues',
-            label: 'Стать автором',
+            href: 'https://github.com/metz-hei/psb/discussions',
+            label: 'Предложить идею',
             position: 'right',
           },
         ],
       },
       footer: {
         style: 'dark',
-        copyright: `© 2001 — 2022 ПAO «Промсвязьбанк» Генеральная лицензия на осуществление банковских операций № 3251 от 17 декабря 2014`,
+        copyright: `© 2001 — 2024 ПAO «Промсвязьбанк» Генеральная лицензия на осуществление банковских операций № 3251 от 17 декабря 2014`,
       },
       prism: {
         theme: prismThemes.github,
