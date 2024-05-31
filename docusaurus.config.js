@@ -7,7 +7,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'ПСБ Гайды',
   tagline: 'Что это такое? И зачем все это нужно? ',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://onemilliondollarsdesigndocumentation.ru/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ПСБ', // Usually your GitHub org/user name.
-  projectName: 'ПСБ Гайды', // Usually your repo name.
+  organizationName: '', // Usually your GitHub org/user name.
+  projectName: 'Гайды', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -49,15 +49,15 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'ПСБ Гайды',
+        title: 'Гайды',
         logo: {
-          alt: 'ПСБ Гайды',
-          src: 'img/logo.svg',
+          alt: 'Гайды',
+          src: 'img/logo2.svg',
         },
         items: [
           {collapsible: false, to: '/patterns', label: 'Паттерны', position: 'left'},
           {
-            href: 'https://github.com/metz-hei/psb/discussions',
+            href: 'https://forms.yandex.ru/u/665979153e9d080a6d7e37fc/',
             label: 'Предложить идею',
             position: 'right',
           },
@@ -65,7 +65,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `© 2001 — 2024 ПAO «Промсвязьбанк» Генеральная лицензия на осуществление банковских операций № 3251 от 17 декабря 2014`,
+        copyright: `© 2024`,
       },
       prism: {
         theme: prismThemes.github,

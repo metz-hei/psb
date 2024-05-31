@@ -1,5 +1,5 @@
 # Экран успеха
-[Фигма](https://www.figma.com/design/qAKyYDP9J4ELzP75aDyE1X/%D0%AD%D0%BA%D1%80%D0%B0%D0%BD-%D1%83%D1%81%D0%BF%D0%B5%D1%85%D0%B0?node-id=0%3A1&t=pCt7FcMtHqh78M6v-1) · [Бэклог](https://github.com/metz-hei/psb/issues?q=is%3Aissue+is%3Aopen+label%3A%22Экран+успеха%22)
+[Фигма](https://www.figma.com/design/qAKyYDP9J4ELzP75aDyE1X/%D0%AD%D0%BA%D1%80%D0%B0%D0%BD-%D1%83%D1%81%D0%BF%D0%B5%D1%85%D0%B0?node-id=0%3A1&t=pCt7FcMtHqh78M6v-1) · [Бэклог](https://jira.psbnk.msk.ru/secure/RapidBoard.jspa?rapidView=3142&projectKey=DS&quickFilter=24073)
 
 ## Заголовок окна
 Заголовок страницы обязательно должен попасть в маску тега `<title>`. Обычно тайтл генерируется по маске:
