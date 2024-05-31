@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Поиск по справочникам
 
-[Бэклог](https://github.com/metz-hei/psb/labels/Поиск%20по%20справочникам)
+[Бэклог](https://jira.psbnk.msk.ru/secure/RapidBoard.jspa?rapidView=3142&projectKey=DS&quickFilter=24073)
 
 Алгоритм поиска подходит для использования в любом справочнике. Ниже описана работа алгоритма на примере справочника «Телефонная книга».
 
