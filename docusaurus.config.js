@@ -5,7 +5,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ПСБ Гайды',
+  title: 'Гайды',
   tagline: 'Что это такое? И зачем все это нужно? ',
   url: 'https://onemilliondollarsdesigndocumentation.ru/',
   baseUrl: '/',
