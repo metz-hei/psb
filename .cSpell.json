@@ -1,0 +1,31 @@
+{
+    "version": "0.2",
+    "language": "en, ru",
+    "dictionaryDefinitions": [
+        {
+            "name": "cspell-custom-words",
+            "path": "cspell-custom-words.txt",
+            "addWords": true
+        }
+    ],
+    "dictionaries": ["cspell-custom-words"],
+    "languageSettings": [
+        {
+            "languageId": "markdown",
+            "caseSensitive": false
+        }
+    ],
+    "ignorePaths": [
+        ".*",
+        "build",
+        "node_modules",
+        "src",
+        "vale",
+        "static",
+        "package.json",
+        "docusaurus.config.js",
+        "sidebars.js",
+        "babel.config.js",
+        "cspell-custom-words.txt"
+    ]
+}
