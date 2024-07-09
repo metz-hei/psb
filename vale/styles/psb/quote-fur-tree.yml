@@ -1,0 +1,7 @@
+# Ищет все неправильные кавычки
+extends: existence
+message: "'%s': нужны кавычки «ёлочки»"
+level: error
+nonword: true
+tokens:
+  - '["]'

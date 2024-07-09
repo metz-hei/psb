@@ -1,0 +1,7 @@
+# Ищет пробелы перед . , ! ?
+extends: existence
+message: "Перед '%s' нет пробела"
+level: error
+nonword: true
+tokens:
+  - '\s[,!\.\?]'

@@ -1,0 +1,7 @@
+# Ищет повторяющиеся слова
+extends: repetition
+message: "Слово '%s' повторяется"
+level: error
+alpha: true
+tokens:
+  - '[^\s]+'

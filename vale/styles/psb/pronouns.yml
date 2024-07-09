@@ -1,0 +1,9 @@
+# Ищет местоимения с большой буквы
+extends: existence
+message: "'%s' пишем с маленькой буквы"
+level: error
+ignorecase: false
+tokens:
+    - Вы
+    - Вас
+    - Вам
