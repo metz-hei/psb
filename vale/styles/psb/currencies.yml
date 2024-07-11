@@ -1,0 +1,7 @@
+# Ищет символы валют написанные слитно с числами
+extends: existence
+message: "'%s': Символ валюты пишется отдельно от числа"
+level: error
+nonword: true
+tokens:
+  - '\d[₽|$|€|¥]'

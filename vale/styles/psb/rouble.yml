@@ -1,7 +1,0 @@
-# Ищет символ рубля написанный слитно с числами
-extends: existence
-message: "'%s': Символ рубля пишется отдельно от числа"
-level: error
-nonword: true
-tokens:
-  - '\d[₽]'

@@ -1,0 +1,7 @@
+# Ищет все числа от 4 символов с символами валют
+extends: existence
+message: "'%s': нужно разделить число на разряды"
+level: error
+nonword: true
+tokens:
+  - '^[0-9]{4,}\s[₽|$|€|¥]'
