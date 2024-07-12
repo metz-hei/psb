@@ -1,0 +1,7 @@
+# Ищет копейки, где разделителем явзяется символ «.»
+extends: existence
+message: "'%s': копейки ставятся через запятую"
+level: error
+nonword: true
+tokens:
+  - '[.]\d.\s[₽|$|€|¥]'

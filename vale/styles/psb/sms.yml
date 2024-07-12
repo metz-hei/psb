@@ -1,0 +1,9 @@
+# Проверям написание англицизма SMS
+extends: existence
+message: "'%s' пишем: СМС, сообщение или уведомление"
+level: error
+ignorecase: false
+tokens:
+    - sms
+    - SMS
+    - смс

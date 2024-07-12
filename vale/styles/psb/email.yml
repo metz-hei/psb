@@ -1,0 +1,7 @@
+# Проверям написание англицизма email
+extends: existence
+message: "'%s' пишем: имеил или электронная почта"
+level: error
+ignorecase: true
+tokens:
+    - email

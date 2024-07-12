@@ -1,0 +1,7 @@
+# Ищет копейки с окончанием 00
+extends: existence
+message: "'%s': не пишем копейки, если их нет"
+level: error
+nonword: true
+tokens:
+  - '[,][0]{0,}\s[₽|$|€|¥]'
