@@ -1,0 +1,7 @@
+# Ищет примеры с усножением, где знак умножения задан неверно
+extends: existence
+message: "'%s': замените на символ умножения"
+level: error
+nonword: true
+tokens:
+  - '(\d\s[x|х|*]\s\d)|(\d[x|х|*]\d)'
