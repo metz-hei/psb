@@ -13,15 +13,8 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   noIndex: true,
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: '', // Usually your GitHub org/user name.
-  projectName: 'Гайды', // Usually your repo name.
-
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
+  organizationName: '',
+  projectName: 'Гайды',
   i18n: {
     defaultLocale: 'ru',
     locales: ['ru'],
@@ -44,7 +37,16 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'changelog',
+        routeBasePath: 'changelog',
+        path: './changelog',
+      },
+    ],
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -56,6 +58,7 @@ const config = {
         },
         items: [
           {collapsible: false, to: '/patterns', label: 'Паттерны', position: 'left'},
+          {collapsible: false, to: '/changelog', label: 'Что нового', position: 'right'},
           {
             href: 'https://forms.yandex.ru/u/665979153e9d080a6d7e37fc/',
             label: 'Предложить идею',
