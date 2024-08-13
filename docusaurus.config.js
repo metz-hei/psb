@@ -44,6 +44,8 @@ const config = {
         id: 'changelog',
         routeBasePath: 'changelog',
         path: './changelog',
+        blogTitle: 'Что нового',
+        blogSidebarTitle: 'Что нового',
       },
     ],
   ],
@@ -58,12 +60,7 @@ const config = {
         },
         items: [
           {collapsible: false, to: '/patterns', label: 'Паттерны', position: 'left'},
-          {collapsible: false, to: '/changelog', label: 'Что нового', position: 'right'},
-          {
-            href: 'https://forms.yandex.ru/u/665979153e9d080a6d7e37fc/',
-            label: 'Предложить идею',
-            position: 'right',
-          },
+          {collapsible: false, to: '/about/feature-requests', label: 'О проекте', position: 'right'},
         ],
       },
       footer: {
