@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Authorization"
+AuthUserFile /var/www/u1526758/data/www/onemilliondollarsdesigndocumentation.ru/.htpasswd
+Require valid-user
