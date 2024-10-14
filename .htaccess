@@ -1,4 +1,10 @@
-AuthType Basic
-AuthName "Authorization"
-AuthUserFile /var/www/u1526758/data/www/onemilliondollarsdesigndocumentation.ru/.htpasswd
-Require valid-user
+Order Allow,Deny
+Order Deny,Allow
+Deny from all
+Allow from 79.139.178.38 212.233.86.124 109.252.69.39
+
+
+#AuthType Basic
+#AuthName "Authorization"
+#AuthUserFile /var/www/u1526758/data/www/#onemilliondollarsdesigndocumentation.ru/.htpasswd
+#Require valid-user
