@@ -7,7 +7,7 @@
    - если вы [на маке](https://developer.apple.com/xcode/)
    - если вы [на винде](https://git-scm.com/downloads/win)
 4. Скопировать ссылку на проект
-   ![Скопировать ссылку на проект](./img/1.png)
+   ![Скопировать ссылку на проект](./static/img/clone.png)
 5. Открыть VS Code и склонировать проект на свой компьютер: ```git clone https://github.com/metz-hei/psb.git```
 6. Установить зависимости: ```npm i```
 7. Запустить проект: ```npm run start```
