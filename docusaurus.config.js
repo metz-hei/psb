@@ -46,6 +46,7 @@ const config = {
         path: './changelog',
         blogTitle: 'Что нового',
         blogSidebarTitle: 'Что нового',
+        onUntruncatedBlogPosts: 'ignore'
       },
     ],
   ],
