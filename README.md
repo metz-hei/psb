@@ -7,5 +7,6 @@
    - если вы [на маке](https://developer.apple.com/xcode/), то git встроен в Xcode
    - если вы [на винде](https://git-scm.com/downloads/win)
 4. Открыть VS Code и склонировать проект на свой компьютер: ```git clone https://github.com/metz-hei/psb.git```
-5. Установить зависимости: ```npm i```
-6. Запустить проект: ```npm run start```
+5. Изменить директорию терминала на psb: ```cd psb```
+6. Установить зависимости: ```npm i```
+7. Запустить проект: ```npm run start```
