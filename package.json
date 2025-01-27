@@ -30,7 +30,7 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.3.2",
     "@docusaurus/types": "3.3.2",
-    "@vvago/vale": "^3.6.0",
+    "@vvago/vale": "^3.9.4",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
     "markdownlint": "^0.37.4"
@@ -53,8 +53,8 @@
   "lint-staged": {
     "*.md": [
       "markdownlint",
-      "cspell"
-      
+      "cspell",
+      "vale"
     ]
   }
 }
