@@ -13,7 +13,7 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "prepare": "husky",
-    "lint-staged": "stagedFiles",
+    "pre-commit": "lint-staged",
     "lint": "markdownlint"
   },
   "dependencies": {
