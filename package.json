@@ -12,7 +12,7 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "prepare": "husky",
+    "prepare": "husky && husky install",
     "pre-commit": "lint-staged",
     "lint": "markdownlint"
   },
@@ -21,7 +21,6 @@
     "@docusaurus/preset-classic": "^3.6.3",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
-    "lint-staged": "^15.3.0",
     "markdownlint-cli": "^0.43.0",
     "pre-commit": "^1.0.10",
     "prism-react-renderer": "^2.3.0",
@@ -33,6 +32,7 @@
     "@docusaurus/types": "3.3.2",
     "@vvago/vale": "^3.6.0",
     "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
     "markdownlint": "^0.37.4"
   },
   "browserslist": {
@@ -51,6 +51,10 @@
     "node": ">=18.0"
   },
   "lint-staged": {
-    "*.md": ["markdownlint", "cSpell", "git add"]
+    "*.md": [
+      "markdownlint",
+      "cSpell",
+      "git add"
+    ]
   }
 }
