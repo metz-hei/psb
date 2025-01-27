@@ -52,7 +52,9 @@
   },
   "lint-staged": {
     "*.md": [
+      "markdownlint",
       "cspell"
+      
     ]
   }
 }
