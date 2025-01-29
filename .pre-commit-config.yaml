@@ -1,0 +1,24 @@
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0  # Use the ref you want to point at
+    hooks:
+    - id: trailing-whitespace
+- repo: https://github.com/tbroadley/spellchecker-cli
+    rev: e4879b5
+    hooks:
+    - id: spellchecker-cli
+        name: spellchecker
+        types: [markdown]
+- repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: "v0.43.0"
+    hooks:
+    - id: markdownlint
+- repo: https://github.com/errata-ai/vale
+    rev: 16d3a7f
+    hooks:
+      - id: vale
+        name: vale sync
+        pass_filenames: false
+        args: [sync]
+      - id: vale
+        args: [--output=line, --minAlertLevel=error]

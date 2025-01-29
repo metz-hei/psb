@@ -1,15 +1,9 @@
+# Heading 1
 
+We skipped out a 2nd level heading in this document!
 
-email-сообщение
+We skipped out.
 
-СМС
+Случайно написали два одинаковых слова подряд.
 
-446 х 623
-4,6 x 6 445
-6 * 6
-
-6х6
-6x6
-6*6
-
--500000
+−50
