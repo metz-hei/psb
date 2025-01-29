@@ -1,6 +1,5 @@
 
 # markdownlint **/*.md --ignore node_modules
 # cspell .
-npx lint-staged
-
 # npm run lintnpx lint-staged
+npx lint-staged
