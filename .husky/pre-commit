@@ -1,5 +1,6 @@
 
+# Чтобы проверить весь проект, нужно запустить каждый линтер отдельно: 
 # markdownlint **/*.md --ignore node_modules
 # cspell .
-# npm run lintnpx lint-staged
+# vale .
 npx lint-staged
