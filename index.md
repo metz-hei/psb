@@ -4,6 +4,6 @@ We skipped out a 2nd level heading in this document!
 
 We skipped out.
 
-Случайно написали два одинаковых слова подряд.
+Привет!
 
-−50
+-50
