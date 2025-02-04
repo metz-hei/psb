@@ -2,4 +2,4 @@
 # markdownlint **/*.md --ignore node_modules
 # cspell . --locale "ru,en"
 # vale .
-# npx lint-staged
+npx lint-staged
