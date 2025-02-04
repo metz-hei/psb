@@ -21,6 +21,7 @@
     "@docusaurus/plugin-content-pages": "^3.7.0",
     "@docusaurus/preset-classic": "^3.6.3",
     "@mdx-js/react": "^3.0.0",
+    "@ocular-d/vale-bin": "^2.29.6",
     "clsx": "^2.0.0",
     "markdownlint-cli": "^0.43.0",
     "pre-commit": "^1.0.10",
