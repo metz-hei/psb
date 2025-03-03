@@ -57,7 +57,8 @@
   "lint-staged": {
     "*.md": [
       "markdownlint",
-      "vale"
+      "vale",
+      "cspell lint -c ./cspell.json --no-progress --no-summary"
     ]
   },
   "cspell": {
