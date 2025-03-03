@@ -1,0 +1,7 @@
+# Ищет несколько пробелов подряд
+extends: existence
+message: "Затесался лишний пробел"
+level: error
+nonword: true
+tokens:
+  - '\s{2,}'
