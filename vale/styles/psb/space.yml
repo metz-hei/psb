@@ -4,4 +4,4 @@ message: "Перед '%s' не должно быть пробела"
 level: error
 nonword: true
 tokens:
-  - '\s[,!\.\?\:\;]'
+  - '\s[,\!\.\?\;]'
