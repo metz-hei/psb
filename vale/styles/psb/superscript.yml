@@ -1,0 +1,8 @@
+# Ищет м2 и м3 и просит использовать надстрочный знак
+extends: existence
+message: "Используйте надстрочный знак: '%s'"
+level: error
+nonword: true
+tokens:
+  - '[мМ]2'
+  - '[мМ]3'

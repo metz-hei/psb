@@ -1,18 +1,18 @@
 {
     "version": "0.2",
     "language": "en,ru",
-    "dictionaries": ["english", "russian", "cspell-custom-words"],
+    "dictionaries": ["cspell-custom-words"],
+    "import": ["@cspell/dict-ru_ru/cspell-ext.json"],
     "dictionaryDefinitions": [
         {
             "name": "cspell-custom-words",
-            "path": "cspell-custom-words.txt",
+            "path": "./cspell-custom-words.txt",
             "addWords": true
         }
     ],
     "languageSettings": [
         {
             "languageId": "markdown",
-            "locale": "en,ru",
             "caseSensitive": false
         }
     ],
