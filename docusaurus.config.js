@@ -29,7 +29,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/metz-hei/psb',
+            'https://github.com/metz-hei/patterns',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
